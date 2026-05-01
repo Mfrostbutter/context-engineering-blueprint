@@ -1,0 +1,60 @@
+# context-engineering-blueprint
+
+A field guide for people who want to stop chatting with AI and start working with it — in their codebase, their knowledge base, and their workflows.
+
+Written for technically curious folks who currently live in Claude.ai, ChatGPT, or Gemini and want to understand what's possible when you bring AI into your actual work environment.
+
+---
+
+## Who this is for
+
+- Techs and IT professionals expanding their AI skill set
+- People who've used web-based AI chat tools and want to go deeper
+- Anyone curious about context engineering, IDE-based AI, or automation workflows
+- No prior coding experience required to get started
+
+---
+
+## Prerequisites
+
+- **Sections 01-03:** Just a browser. Read on GitHub directly.
+- **Sections 04+:** VS Code installed, a GitHub account, and a Claude API key (or Claude Pro subscription for Claude Code).
+
+---
+
+## Learning Path
+
+Work through these in order. Each section builds on the last.
+
+| Section | Topic | What you'll learn |
+|---|---|---|
+| [01 - Foundations](./01-foundations/) | AI fundamentals | How LLMs work, key concepts, best resources |
+| [02 - GitHub Basics](./02-github-basics/) | Git and GitHub | Version control, repos, PRs, how AI teams use GitHub |
+| [03 - AI Tools Landscape](./03-ai-tools-landscape/) | Tools overview | Web chat vs IDE-based AI — when each makes sense |
+| [04 - IDE Setup](./04-ide-setup/) | Getting started | Install Claude Code, set up VS Code, scaffold your first project |
+| [05 - Context Engineering](./05-context-engineering/) | The core skill | CLAUDE.md, repo structure, prompting patterns |
+| [06 - Second Brain](./06-second-brain/) | Knowledge system | A markdown-based knowledge folder Claude Code reads as context |
+| [07 - Repo Template](./07-repo-template/) | Ready-to-use template | Copy this, fill in your details, have a context-engineered repo in minutes |
+| [08 - Automation Platforms](./08-automation-platforms/) | No-code workflows | n8n, Make, Zapier — build real automations without writing code |
+
+---
+
+## How to use this repo
+
+**Option A — Read it on GitHub.** Everything is plain markdown. No setup required. Start at `01-foundations/README.md` and work your way through.
+
+**Option B — Clone it and open in Claude Code.** Once you've completed section 04, clone this repo and open it in Claude Code. Ask Claude Code to walk you through the `07-repo-template/BOOTSTRAP.md` to scaffold your own project.
+
+---
+
+## The core idea
+
+Most people use AI as a search engine with a chat interface. Context engineering is the practice of structuring your work so the AI always has the right information at hand — without you having to re-explain everything every session.
+
+This repo teaches you how to do that.
+
+---
+
+## Contributing
+
+This is a living document. If you find outdated links, have a better resource to suggest, or want to add an example workflow — open a pull request.

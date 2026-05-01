@@ -1,0 +1,101 @@
+# IDE-Based AI Tools
+
+These tools run inside your development environment — VS Code, a terminal, or a dedicated AI-first editor. They can read your files, run commands, edit code, commit to Git, and maintain context across sessions.
+
+---
+
+## Claude Code
+
+**Made by:** Anthropic
+**Runs in:** Terminal (any), VS Code extension
+**Pricing:** Requires Claude API key (~$3-15/month typical usage) or Claude Max subscription ($100/month, unlimited)
+**Best for:** This is what this repo focuses on — see section 04 for full setup
+
+**What makes it different:**
+- Full filesystem access — reads and edits any file in your project
+- Runs bash commands, git commands, package installs
+- Reads your `CLAUDE.md` at the start of every session — persistent project context
+- Supports custom agents (`.claude/agents/` directory)
+- Agentic loops — can plan and execute multi-step tasks autonomously
+- No GUI — runs in your terminal, which is part of the point
+
+**When to use it:** When you want the AI to actually do work — scaffold a project, refactor code, review files, set up a new agent, initialize a CLAUDE.md.
+
+---
+
+## Cursor
+
+**Made by:** Anysphere
+**Runs in:** Dedicated editor (VS Code fork)
+**Pricing:** Free tier (limited), Pro $20/month
+**Website:** cursor.com
+
+**What makes it different:**
+- A full VS Code fork with AI deeply integrated throughout the editor
+- "Composer" mode: give it a multi-file task, it plans and executes across the whole codebase
+- Tab autocomplete that predicts multi-line edits (better than Copilot for some workflows)
+- Built-in Claude, GPT-4, and other model support — you choose per-task
+- `.cursorrules` file for persistent project context (equivalent to CLAUDE.md for Cursor)
+
+**When to use it:** If you want a polished all-in-one AI coding environment and don't mind switching from standard VS Code. Popular in the AI-native developer community.
+
+---
+
+## Cline (formerly Claude Dev)
+
+**Made by:** Community/open source
+**Runs in:** VS Code extension
+**Pricing:** Free extension — pays for API calls (Claude, GPT-4, Gemini, local models)
+**GitHub:** github.com/cline/cline
+
+**What makes it different:**
+- Open source VS Code extension
+- Similar agentic capabilities to Claude Code (reads files, runs commands)
+- Supports multiple AI providers — Claude, GPT-4, local models via Ollama
+- Good for teams that want flexibility on model choice
+- Active community and rapid development
+
+**When to use it:** If you want Claude Code-style capability inside VS Code without switching to Cursor, or if you want to use local/open-source models.
+
+---
+
+## GitHub Copilot
+
+**Made by:** GitHub / Microsoft
+**Runs in:** VS Code, JetBrains IDEs, GitHub.com
+**Pricing:** Free tier for some users; $10/month individual; $19/month Business
+**Best for:** Autocomplete and inline suggestions
+
+**What makes it different:**
+- The most widely deployed AI coding tool in enterprise
+- Excellent at autocomplete — suggests the next line (or next block) as you type
+- Copilot Chat in VS Code: ask questions in a sidebar, get code explanations
+- GitHub integration: PR summaries, issue generation, code review suggestions
+- Does NOT have the same filesystem/command access as Claude Code or Cline
+
+**When to use it:** When you want smart autocomplete while typing. Many people run Copilot alongside Claude Code — Copilot for inline suggestions, Claude Code for larger tasks.
+
+---
+
+## Comparison table
+
+| Tool | Interface | File access | Runs commands | Persistent context | Model flexibility |
+|---|---|---|---|---|---|
+| Claude Code | Terminal + VS Code ext | Full | Yes | CLAUDE.md | Claude only |
+| Cursor | Dedicated editor | Full | Yes | .cursorrules | Claude, GPT, Gemini |
+| Cline | VS Code extension | Full | Yes | .clinerules | Any provider |
+| GitHub Copilot | VS Code + IDEs | Limited | No | None | GitHub models |
+
+---
+
+## Which should you start with?
+
+**If you're new to all of this:** Start with Claude Code. It's the focus of this repo, has excellent documentation, and the `CLAUDE.md` pattern it uses is the cleanest context engineering system available.
+
+**If you want an all-in-one polished editor:** Try Cursor. Download it at cursor.com and import your VS Code settings.
+
+**If you want to stay in VS Code and use multiple models:** Try Cline.
+
+**If your workplace already uses GitHub:** Copilot is probably already available to you. It's a good first AI tool even if you eventually add Claude Code.
+
+You don't need to pick just one. Many people run Claude Code in the terminal + Copilot in VS Code simultaneously.
