@@ -50,7 +50,7 @@ A map of your project. What's in each folder?
 ## Directory Structure
 - `src/` — main scripts and code
 - `docs/` — architecture notes and runbooks
-- `knowledge/` — second brain: decisions, learnings, contacts
+- `knowledge/` — extended knowledge: decisions, learnings, contacts
 - `prototypes/` — experiments (nothing in src/ imports from here)
 - `Archive/` — retired files (never delete, move here)
 ```

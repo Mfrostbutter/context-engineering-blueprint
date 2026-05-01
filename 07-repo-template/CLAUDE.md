@@ -30,7 +30,7 @@ Add or remove folders to match your actual structure. -->
 - `src/` — main code and scripts
 - `prototypes/` — experiments (nothing in `src/` imports from here)
 - `docs/` — architecture notes and runbooks
-- `knowledge/` — second brain: decisions, learnings, contacts
+- `knowledge/` — extended knowledge: decisions, learnings, contacts
 - `Archive/` — retired files (never delete, move here)
 
 ## References

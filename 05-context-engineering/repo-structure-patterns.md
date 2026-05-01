@@ -23,7 +23,7 @@ my-project/
 
 ## The knowledge folder
 
-A `knowledge/` directory is your second brain — a collection of markdown files the AI reads as context.
+A `knowledge/` directory is your extended knowledge base — a collection of markdown files the AI reads as context.
 
 ```
 knowledge/
@@ -140,7 +140,7 @@ All credentials via .env. See .env.example for required variables. Never hardcod
 ## Summary: the five patterns
 
 1. **Graduation model** — `prototypes/` for experiments, `src/` for production, never mix
-2. **Knowledge folder** — `knowledge/` is your second brain, structured and AI-readable
+2. **Knowledge folder** — `knowledge/` is your extended knowledge base, structured and AI-readable
 3. **Per-module runbooks** — every significant component gets its own README
 4. **Load-on-demand refs** — CLAUDE.md points to docs, doesn't contain them
 5. **Secrets in .env** — credentials never in code, CLAUDE.md, or Git

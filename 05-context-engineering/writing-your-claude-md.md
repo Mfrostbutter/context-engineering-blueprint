@@ -58,7 +58,7 @@ List each folder with a one-line description. The AI uses this to know where thi
 ## Directory Structure
 - `src/` — [what goes here]
 - `docs/` — [what goes here]
-- `knowledge/` — second brain: decisions, learnings, contacts
+- `knowledge/` — extended knowledge: decisions, learnings, contacts
 - `Archive/` — retired files (never delete, move here)
 ```
 
@@ -68,7 +68,7 @@ List each folder with a one-line description. The AI uses this to know where thi
 - `src/` — main code and scripts
 - `prototypes/` — experiments (nothing in src/ imports from here)
 - `docs/` — architecture notes and runbooks
-- `knowledge/` — second brain: decisions, learnings, contacts
+- `knowledge/` — extended knowledge: decisions, learnings, contacts
 - `Archive/` — retired files (move here, never delete)
 ```
 
@@ -116,7 +116,7 @@ Last updated: [today's date]
 ## Directory Structure
 - `src/` — [what goes here]
 - `docs/` — [what goes here]
-- `knowledge/` — second brain: decisions, learnings, contacts
+- `knowledge/` — extended knowledge: decisions, learnings, contacts
 - `Archive/` — retired files
 
 ## References

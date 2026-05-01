@@ -33,7 +33,7 @@ Work through these in order. Each section builds on the last.
 | [03 - AI Tools Landscape](./03-ai-tools-landscape/) | Tools overview | Web chat vs IDE-based AI — when each makes sense |
 | [04 - IDE Setup](./04-ide-setup/) | Getting started | Install Claude Code, set up VS Code, scaffold your first project |
 | [05 - Context Engineering](./05-context-engineering/) | The core skill | CLAUDE.md, repo structure, prompting patterns |
-| [06 - Second Brain](./06-second-brain/) | Knowledge system | A markdown-based knowledge folder Claude Code reads as context |
+| [06 - Extended Knowledge](./06-extended-knowledge/) | Knowledge system | A markdown-based knowledge folder Claude Code reads as context |
 | [07 - Repo Template](./07-repo-template/) | Ready-to-use template | Copy this, fill in your details, have a context-engineered repo in minutes |
 | [08 - Automation Platforms](./08-automation-platforms/) | No-code workflows | n8n, Make, Zapier — build real automations without writing code |
 

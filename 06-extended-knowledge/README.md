@@ -1,8 +1,8 @@
-# 06 — Second Brain
+# 06 — Extended Knowledge
 
-A second brain is a system for capturing what you learn so you don't have to carry it all in your head. For AI-assisted work, it has an additional benefit: the AI can read it.
+Extended knowledge is a system for capturing what you learn so you don't have to carry it all in your head. For AI-assisted work, it has an additional benefit: the AI can read it.
 
-When your second brain lives in a `knowledge/` folder in your project, Claude Code has access to your decisions, learnings, and context. You stop repeating yourself. The AI stops making mistakes based on things you've already figured out.
+When your extended knowledge lives in a `knowledge/` folder in your project, Claude Code has access to your decisions, learnings, and context. You stop repeating yourself. The AI stops making mistakes based on things you've already figured out.
 
 ---
 

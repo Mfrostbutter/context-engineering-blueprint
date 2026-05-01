@@ -57,7 +57,7 @@ https://arxiv.org/abs/2005.11401
 
 **Plain-English summary:** Instead of memorizing all facts during training (which gets stale and has limits), train the model to first search a knowledge base for relevant information, then use that information to answer the question. This gives you a model that can work with up-to-date, private, or domain-specific information.
 
-**Why it matters:** RAG is the foundation for most enterprise AI assistants, document Q&A systems, and anything that needs current or proprietary information. The "second brain" pattern in section 06 of this repo is a simple implementation of the same idea.
+**Why it matters:** RAG is the foundation for most enterprise AI assistants, document Q&A systems, and anything that needs current or proprietary information. The "extended knowledge" pattern in section 06 of this repo is a simple implementation of the same idea.
 
 ---
 

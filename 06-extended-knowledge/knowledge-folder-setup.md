@@ -1,6 +1,6 @@
 # Knowledge Folder Setup
 
-The `knowledge/` folder is a markdown-based second brain that Claude Code can read as context. No database, no vector store — just organized text files.
+The `knowledge/` folder is a markdown-based extended knowledge base that Claude Code can read as context. No database, no vector store — just organized text files.
 
 ---
 

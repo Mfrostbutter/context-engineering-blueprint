@@ -53,7 +53,7 @@ CLAUDE.md should point to detailed docs, not contain them. "Deployment guide: `d
 ### 3. Your folder structure communicates intent
 `prototypes/` means "experimental, not production." `docs/` means "reference material." The names matter — the AI uses them to understand what kind of work belongs where.
 
-### 4. The knowledge folder is your second brain
+### 4. The knowledge folder is your extended knowledge base
 A `knowledge/` folder full of markdown files is context that persists. When you capture a decision in `knowledge/decisions/`, it's there the next time the AI needs it — without you having to remember to mention it.
 
 ---

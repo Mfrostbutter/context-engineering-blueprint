@@ -21,7 +21,7 @@ Educational repo for people transitioning from web-based AI chat tools to IDE-ba
 - `03-ai-tools-landscape/` — Web chat vs IDE comparison, tool overview
 - `04-ide-setup/` — Claude Code install, VS Code setup, bootstrap prompts
 - `05-context-engineering/` — CLAUDE.md pattern, repo structure, prompting in IDE
-- `06-second-brain/` — Knowledge folder setup, Obsidian integration
+- `06-extended-knowledge/` — Knowledge folder setup, Obsidian integration
 - `07-repo-template/` — Drop-in template: copy, fill in, go
 - `08-automation-platforms/` — n8n, Make, Zapier — beginner workflows
 - `resources/` — Prompt library, communities

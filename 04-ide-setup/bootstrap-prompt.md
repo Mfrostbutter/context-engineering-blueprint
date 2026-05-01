@@ -22,7 +22,7 @@ Please help me:
    - src/ (main work goes here)
    - prototypes/ (experiments — nothing in src/ imports from here)
    - docs/ (notes and documentation)
-   - knowledge/ (my second brain — markdown files you should read for context)
+   - knowledge/ (extended knowledge — markdown files you should read for context)
    - knowledge/decisions/ (important decisions I've made)
    - knowledge/learnings/ (hard-won lessons and gotchas)
 4. Create a knowledge/decisions/project-setup.md with a brief note that this project was initialized today and what it's for
