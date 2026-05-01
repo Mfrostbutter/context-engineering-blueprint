@@ -1,4 +1,4 @@
-# context-engineering-blueprint
+# Beyond the Chatbox
 
 A field guide for people who want to stop chatting with AI and start working with it — in their codebase, their knowledge base, and their workflows.
 
@@ -17,8 +17,10 @@ Written for technically curious folks who currently live in Claude.ai, ChatGPT, 
 
 ## Prerequisites
 
+**Start here first:** [00 — Prerequisites](./00-prerequisites/) — Claude Pro, Git, VS Code, and Docker Desktop. Takes 30-60 minutes. Do this before anything else.
+
 - **Sections 01-03:** Just a browser. Read on GitHub directly.
-- **Sections 04+:** VS Code installed, a GitHub account, and a Claude API key (or Claude Pro subscription for Claude Code).
+- **Sections 04+:** Prerequisites must be installed.
 
 ---
 
@@ -28,6 +30,7 @@ Work through these in order. Each section builds on the last.
 
 | Section | Topic | What you'll learn |
 |---|---|---|
+| [00 - Prerequisites](./00-prerequisites/) | Setup | Claude Pro, Git, VS Code, Docker Desktop |
 | [01 - Foundations](./01-foundations/) | AI fundamentals | How LLMs work, key concepts, best resources |
 | [02 - GitHub Basics](./02-github-basics/) | Git and GitHub | Version control, repos, PRs, how AI teams use GitHub |
 | [03 - AI Tools Landscape](./03-ai-tools-landscape/) | Tools overview | Web chat vs IDE-based AI — when each makes sense |
